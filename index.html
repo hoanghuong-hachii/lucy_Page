@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trang chủ</title>
+    <title>Lucy</title>
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./assets/css/base.css">
-    <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
@@ -19,13 +21,35 @@
 </head>
 <body>
     <div class="main">
-        
         <header class="header">
             <div class="grid wide">
 
                 <div class="header__top">
+                    <a href="#" class="menu-mt">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                            <g fill="none">
+                                <path d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022m-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                                <path fill="#5e6085" d="M20 18a1 1 0 0 1 .117 1.993L20 20H4a1 1 0 0 1-.117-1.993L4 18zm0-7a1 1 0 1 1 0 2H4a1 1 0 1 1 0-2zm0-7a1 1 0 1 1 0 2H4a1 1 0 0 1 0-2z" />
+                            </g>
+                        </svg>
+                    </a>
                     <a href="#" class="logo">
-                        <img src="" alt="">
+                        <img src="/assets/imgs/logo.svg" alt="">
+                        
+                    </a>
+                    <div class="navbar">
+                        <ul class="list-title">
+                            <li class="item"><a href="#">Home</a></li>
+                            <li class="item"><a href="#">About</a></li>
+                            <li class="item"><a href="#">Services & Rates</a></li>
+                            <li class="item"><a href="#">Reviews</a></li>
+                            <li class="item"><a href="#">Contacts us</a></li>
+
+                        </ul>
+                        
+                    </div>
+                    <a href="#" class="sign-up">
+                        Sign Up
                     </a>
                 </div>
         
@@ -35,13 +59,268 @@
         
 
         <div class="container">
+            <div class="grid wide">
+                <div class="home">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="hero-pet">
+                                <div class="img-main">
+                                    <img src="/assets/imgs/hero-pet-01.png" alt="">
+                                    <div class="img-child">
+                                        <img src="/assets/imgs/hero-pet-02.png" alt="" class="hero-2">
+                                    </div>
+                                    <ul class="group-img">
+                                        <li class="item">
+                                            <div class="box-img3">
+                                                <img src="/assets/imgs/hero-pet-03.png" alt="">
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="title">
+                                                    <h3>Pet Health</h3>
+                                                </div>
+                                                <div class="skeleton max"></div>
+                                                <div class="skeleton min"></div>
+                                                
+                                            </div>
+                                        </li>
+                                        <div class="skeleton full"></div>
+                                        <li class="item">
+                                            <div class="box-img4">
+                                                <img src="/assets/imgs/hero-pet-04.png" alt="">
+                                            </div>
+                                            <div class="item__content">
+                                                <div class="title">
+                                                    <h3>Pet care</h3>
+                                                </div>
+                                                <div class="skeleton max"></div>
+                                                <div class="skeleton min"></div>
+                                                
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
 
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="hero-content">
+                               <header class="title">
+                                 <h3>Established & Trusted Pet Care Service</h3>
+                               </header>
+                               <p class="desc">
+                                Discover a wide variety of Pawsitive services to choose from, including daycare, private walks, office duty and spa.
+                               </p>
+                               <div class="footer">
+                                    <a href="#" class="btn">Book a Meet
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48">
+                                            <defs>
+                                                <mask id="ipSRightC0">
+                                                    <g fill="none" stroke-linejoin="round" stroke-width="4">
+                                                        <path fill="#fff" stroke="#fff" d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z" />
+                                                        <path stroke="#000" stroke-linecap="round" d="m21 33l9-9l-9-9" />
+                                                    </g>
+                                                </mask>
+                                            </defs>
+                                            <path fill="#fff" d="M0 0h48v48H0z" mask="url(#ipSRightC0)" />
+                                        </svg>
+                                    </a>
+                                    <a href="#"class="btn-link">Schedule a Call</a>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about">
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="about__content">
+                                <h3 class="about__title">Best Agency For Your Pet</h3>
+                                <p class="about__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                <div class="about__check-list">
+                                    <span class="check-list__item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                            <path fill="#ff5b2e" d="m10.6 15.508l6.396-6.396l-.708-.708l-5.688 5.688l-2.85-2.85l-.708.708zM5.615 20q-.69 0-1.152-.462Q4 19.075 4 18.385V5.615q0-.69.463-1.152Q4.925 4 5.615 4h12.77q.69 0 1.152.463q.463.462.463 1.152v12.77q0 .69-.462 1.152q-.463.463-1.153.463z" />
+                                        </svg>
+                                        Certified Groomer
+                                    </span>
+                                    <span class="check-list__item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                            <path fill="#ff5b2e" d="m10.6 15.508l6.396-6.396l-.708-.708l-5.688 5.688l-2.85-2.85l-.708.708zM5.615 20q-.69 0-1.152-.462Q4 19.075 4 18.385V5.615q0-.69.463-1.152Q4.925 4 5.615 4h12.77q.69 0 1.152.463q.463.462.463 1.152v12.77q0 .69-.462 1.152q-.463.463-1.153.463z" />
+                                        </svg>
+                                        Animal Lover
+                                    </span>
+                                    <span class="check-list__item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                            <path fill="#ff5b2e" d="m10.6 15.508l6.396-6.396l-.708-.708l-5.688 5.688l-2.85-2.85l-.708.708zM5.615 20q-.69 0-1.152-.462Q4 19.075 4 18.385V5.615q0-.69.463-1.152Q4.925 4 5.615 4h12.77q.69 0 1.152.463q.463.462.463 1.152v12.77q0 .69-.462 1.152q-.463.463-1.153.463z" />
+                                        </svg>
+                                        14+ Years Experience
+                                    </span>
+                                    <span class="check-list__item">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24">
+                                            <path fill="#ff5b2e" d="m10.6 15.508l6.396-6.396l-.708-.708l-5.688 5.688l-2.85-2.85l-.708.708zM5.615 20q-.69 0-1.152-.462Q4 19.075 4 18.385V5.615q0-.69.463-1.152Q4.925 4 5.615 4h12.77q.69 0 1.152.463q.463.462.463 1.152v12.77q0 .69-.462 1.152q-.463.463-1.153.463z" />
+                                        </svg>
+                                        Pet Parent Of 3 Dogs
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="about__img">
+                                <div class="img-main">
+                                    <div class="overlay">
+                                        <div class="img-content">
+                                            <span class="number">20+</span>
+                                            <span>Years Experience</span>
+                                            <img src="/assets/imgs/about-decor-01.svg" alt="" class="img-child2">
+    
+                                        </div>
+                                    </div>
+                                    <img class="img-parent" src="/assets/imgs/about-01.png" alt="">
+                                    <img src="/assets/imgs/about-decor-02.svg" alt="" class="img-child1">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="space"></div>
+                    <div class="row">
+                        <div class="col l-6 m-12 c-12">
+                            <div class="about__2">
+                                <img class="img-parent" src="/assets/imgs/about-02.png" alt="">
+                                <img class="about-decor-03" src="assets/imgs/about-decor-03.svg" alt="">
+                                <img class="about-decor-04" src="assets/imgs/about-decor-04.svg" alt="">
+                                <img class="about-decor-05" src="assets/imgs/about-decor-05.svg" alt="">
+                                <img class="about-decor-06" src="assets/imgs/about-decor-06.svg" alt="">
+                                <img class="about-decor-07" src="assets/imgs/about-decor-07.svg" alt="">
+                                <img class="about-decor-08" src="assets/imgs/about-decor-08.svg" alt="">
+                                <img class="about-decor-09" src="assets/imgs/about-decor-08.svg" alt="">
+                                <img class="about-decor-10" src="assets/imgs/about-decor-08.svg" alt="">
+                            </div>
+                            
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <div class="about__content">
+                                <h3 class="about__title">Taking A Vacation? So Is Your Pet.</h3>
+                                <p class="about__desc">We offer long-term and short-term boarding. Every dog has its own private, spacious room and daily individual time in our large play yard.</p>
+                                <ul class="about__2-list">
+                                    <li class="item__about">
+                                        <a id="item-a1"  href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                <defs>
+                                                    <path id="solarHomeBold0" fill="#68b6f7" d="M10.75 9.5a1.25 1.25 0 1 1 2.5 0a1.25 1.25 0 0 1-2.5 0" />
+                                                </defs>
+                                                <path fill="#68b6f7" d="M18.5 3H16a.5.5 0 0 0-.5.5v.059l3.5 2.8V3.5a.5.5 0 0 0-.5-.5" />
+                                                <use href="#solarHomeBold0" fill-rule="evenodd" clip-rule="evenodd" />
+                                                <path fill="#68b6f7" fill-rule="evenodd" d="m20.75 10.96l.782.626a.75.75 0 0 0 .936-1.172l-8.125-6.5a3.75 3.75 0 0 0-4.686 0l-8.125 6.5a.75.75 0 0 0 .937 1.172l.781-.626v10.29H2a.75.75 0 0 0 0 1.5h20a.75.75 0 0 0 0-1.5h-1.25zM9.25 9.5a2.75 2.75 0 1 1 5.5 0a2.75 2.75 0 0 1-5.5 0m2.8 3.75c.664 0 1.237 0 1.696.062c.492.066.963.215 1.345.597s.531.853.597 1.345c.058.43.062.96.062 1.573v4.423h-1.5V17c0-.728-.002-1.2-.048-1.546c-.044-.325-.114-.427-.172-.484c-.057-.057-.159-.128-.484-.172c-.347-.046-.818-.048-1.546-.048c-.728 0-1.2.002-1.546.048c-.325.044-.427.115-.484.172c-.057.057-.128.159-.172.484c-.046.347-.048.818-.048 1.546v4.25h-1.5v-4.3c0-.664 0-1.237.062-1.696c.066-.492.215-.963.597-1.345s.854-.531 1.345-.597c.459-.062 1.032-.062 1.697-.062z" clip-rule="evenodd" />
+                                                <use href="#solarHomeBold0" fill-rule="evenodd" clip-rule="evenodd" />
+                                            </svg>
+                                            Pet Boarding</a>
+                                    </li>
+                                    <li class="item__about">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 48 48">
+                                                <path fill="#ff8766" fill-rule="evenodd" d="M23.375 5.22a1 1 0 0 1 1.25 0L39.35 17H42v6H6v-6h2.65zM25 10v2h2v2h-2v2h-2v-2h-2v-2h2v-2zm-1 15a4 4 0 0 0-4 4v8h-6v-4h-2v-8H8v8H6v4H4v6h40v-6h-2v-4h-2v-8h-4v8h-2v4h-6v-8a4 4 0 0 0-4-4m0 2a2 2 0 0 1 2 2v8h-4v-8a2 2 0 0 1 2-2" clip-rule="evenodd" />
+                                            </svg>
+                                            Pet Daycare</a>
+                                    </li>
+                                    <li class="item__about">
+                                        <a href="#">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                                <path fill="#f9c75d" fill-rule="evenodd" d="M8.25 6.015V5a3.75 3.75 0 1 1 7.5 0v1.015c1.287.039 2.075.177 2.676.676c.833.692 1.053 1.862 1.492 4.203l.75 4c.617 3.292.925 4.938.026 6.022C19.794 22 18.119 22 14.77 22H9.23c-3.35 0-5.024 0-5.924-1.084c-.9-1.084-.59-2.73.026-6.022l.75-4c.44-2.34.659-3.511 1.492-4.203c.601-.499 1.389-.637 2.676-.676M9.75 5a2.25 2.25 0 0 1 4.5 0v1h-4.5zm5.99 5.877a.75.75 0 1 0-1.48.246l1 6a.75.75 0 1 0 1.48-.246zm-6.617-.617a.75.75 0 0 0-.863.617l-1 6a.75.75 0 1 0 1.48.246l1-6a.75.75 0 0 0-.617-.863" clip-rule="evenodd" />
+                                            </svg>
+                                            Pet Transport</a>
+                                    </li>
+                                </ul>
+
+                                <div class="about__2-context">
+                                    <p>While you're on holiday, here's where your furry friends will spend their time 1.</p>
+                                </div>
+                                <a class="btn-viewmore" 
+                                    style="color: var(--mainLucy);
+                                            text-decoration: underline;
+                                            font-weight: 500;" 
+                                    href="#">
+                                    View more
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="service">
+
+                </div>
+                <div class="review">
+
+                </div>
+                <div class="contact">
+                    
+                </div>
+            </div>
         </div>
 
         <footer class="footer">
 
         </footer>
+        
     </div>
+
+    <script>
+        
+
+        $(document).ready(function() {
+            $('#control-menu__left').click(function(){
+                console.log('click left')
+                $(".nav-category").animate({scrollLeft: "-=100px"});
+            });
+            
+            $('#control-menu__right').click(function(){
+                $(".nav-category").animate({scrollLeft: "+=100px"});
+            });
+
+
+            $('.btn-left').click(function(){
+                console.log('click left')
+                $(".child-img").animate({scrollLeft: "-=100px"});
+            });
+            
+            $('.btn-right').click(function(){
+                $(".child-img").animate({scrollLeft: "+=100px"});
+            });
+
+            $('a[href="#"]').click(function(event) {
+                event.preventDefault(); 
+                event.stopPropagation(); 
+            });
+
+            $('#item-a1').css({
+                'color':'var(--mainLucy)'
+
+            }).parent('li').css({
+                'border-bottom': '1px solid var(--mainLucy)'
+            })
+
+            $('.item__about a').click(function() {
+                $('.item__about a').not(this).css({
+                    'color':'#48496a'
+                }).parent('li').css({
+                    'border-bottom': '1px solid #ccc'
+                })
+                $(this).css({
+                    'color':'var(--mainLucy)'
+
+                }).parent('li').css({
+                    'border-bottom': '1px solid var(--mainLucy)'
+                })
+            })
+
+            
+
+        })
+            
+    </script>
 
    
 </body>

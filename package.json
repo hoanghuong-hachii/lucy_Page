@@ -1,0 +1,12 @@
+{
+  "name": "lucy_page",
+  "version": "1.0.0",
+  "description": "pet store website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass assets/sass:assets/css -w"
+  },
+  "author": "",
+  "license": "ISC"
+}

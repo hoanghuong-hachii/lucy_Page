@@ -1,82 +1,45 @@
 /* PC */
-@media (min-width: 1024px) and (max-width: 1239px) {
-    
-}
-
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px) {
-    
-}
-
-@media (min-width: 740px){
-    
-    .product-body__img:hover .view_product,
-    .product-body__img:hover .add_cart {
-        display: block;
-    }
-}
-
 @media (max-width: 1023px) {
-    .header__middle,
-    .header__top-search {
-        display: none;
-    }
-
-    .header-menu{
-        display: block;
-    }
-
-    /* .navbar__item-like, */
-    /* .navbar__item-notify--show, */
-    .navbar__item-acount,
-    .navbar__store{
-        display: none;
-    }
-
-    .header__top {
-        padding: 0 20px;
-    }
-    .navbar__list {
-        flex: 1;
-    }
-
-
-    .header__top-search.search-mb{
-        display: block;
-        padding: 5px 20px;
-    }
-
-    .navbar__item-notify--show,
-    .navbar__item-like,
-    .navbar__item-cart{
-        padding: 6px 0px;
-
-    }
-
-    
-
+  .header .menu-mt {
+    display: block;
+  }
+  .header .navbar {
+    display: none;
+  }
+  .container .home .hero-content {
+    margin-top: 180px;
+  }
+  .container .home .hero-content .title h3 {
+    font-size: 5.5rem;
+  }
+  .about__img {
+    padding-top: 50px;
+  }
 }
-
-
 /* Tablet */
 @media (max-width: 739px) {
-
-    .footer-end{
-        padding-left: 20px;
-    }
-    .main {
-        padding:0  5px;
-    }
-    .discount-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 16px;
-    }
-    .discount-time{
-        margin-top: 16px;
-    }
-    .discount-header .btn_view-all {
-        margin-top: 16px;
-    }
+  .header {
+    padding: 0 8px;
+  }
+  .home {
+    padding: 0 8px;
+  }
+  .container .about {
+    padding: 140px 8px;
+  }
 }
+@media (max-width: 459px) {
+  .container .home .hero-pet .group-img {
+    bottom: -40%;
+    right: -10%;
+  }
+  .container .about .about__img .number {
+    font-size: 24px;
+  }
+  .container .about .about__img span {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */

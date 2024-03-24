@@ -1,0 +1,73 @@
+/* PC */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    
+}
+
+@media (min-width: 740px){
+    
+    
+}
+
+@media (max-width: 1023px) {
+    .header {
+
+        .menu-mt  {
+            display: block;
+        }
+        .navbar {
+            display: none;
+        }
+    } 
+
+    .container .home .hero-content {
+        margin-top: 180px;
+    }
+    
+
+    .container .home .hero-content .title h3 {
+        font-size: 5.5rem;
+    }
+
+    .about__img {
+        padding-top: 50px;
+    }
+
+    
+}
+
+
+/* Tablet */
+@media (max-width: 739px) {
+    .header {
+        padding: 0 8px;
+    }
+    .home {
+        padding: 0 8px;
+    }
+    .container .about {
+        padding: 140px 8px;
+    }
+
+    
+    
+}
+
+@media (max-width: 459px) {
+    .container .home .hero-pet .group-img {
+        bottom: -40%;
+        right: -10%;
+    }
+
+    .container .about .about__img .number {
+        font-size: 24px;
+    }
+
+    .container .about .about__img span {
+        font-size: 12px;
+    }
+}
