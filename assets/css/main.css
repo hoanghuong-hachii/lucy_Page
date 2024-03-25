@@ -34,7 +34,7 @@
   color: #5e6085;
 }
 .header .header__top .navbar .list-title .item a:hover {
-  color: #000958;
+  color: #ff5b2e;
 }
 .header .header__top .sign-up {
   min-width: 120px;
@@ -46,6 +46,10 @@
   padding: 0 20px;
   border: #5e6085 1px solid;
   border-radius: 20px;
+}
+.header .header__top .sign-up:hover {
+  color: #fff;
+  background-color: #5e6085;
 }
 .header .menu-mt {
   display: none;
@@ -183,6 +187,9 @@
   color: #fff;
   border-radius: 20px;
 }
+.container .home .hero-content .footer .btn:hover {
+  opacity: 0.6;
+}
 .container .home .hero-content .footer .btn svg {
   margin-left: 8px;
 }
@@ -191,6 +198,9 @@
   color: #000958;
   text-decoration: underline;
   font-weight: 600;
+}
+.container .home .hero-content .footer .btn-link:hover {
+  color: #ff5b2e;
 }
 .container .about {
   padding: 140px 0;
@@ -505,6 +515,10 @@
   border: 1px #ff5b2e solid;
   display: inline-block;
   font-weight: 500;
+}
+.btn-viewall:hover {
+  color: #fff;
+  background-color: #ff5b2e;
 }
 
 .staff {
@@ -895,6 +909,76 @@
 
 .btn-left {
   left: 0;
+}
+
+.footer {
+  background-color: #fff6ed;
+  padding: 60px 0;
+}
+.footer .contact {
+  display: flex;
+  flex-direction: column;
+}
+.footer .contact .logo {
+  max-width: 103px;
+}
+.footer .contact .logo img {
+  max-width: 103px;
+  height: auto;
+}
+.footer .contact .send-form {
+  margin: 24px 0;
+  display: inline-block;
+  display: flex;
+  position: relative;
+}
+.footer .contact .input-form {
+  height: 50px;
+  width: 90%;
+  outline: none;
+  border: 1px solid #ff5b2e;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0 20px;
+  border-radius: 20px;
+}
+.footer .contact .btn-send {
+  position: absolute;
+  top: 0;
+  right: 9%;
+  height: 50px;
+  width: 50px;
+  border: 1px solid #ff5b2e;
+  background-color: #ff5b2e;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .contact h3 {
+  font-size: 16px;
+  color: #5e6085;
+  margin-bottom: 16px;
+  line-height: 1.5;
+}
+.footer .contact .social-icon {
+  margin-right: 8px;
+}
+.footer .info .info-item .title {
+  font-size: 16px;
+  color: #5e6085;
+  margin-bottom: 16px;
+  line-height: 1.5;
+  color: #000958;
+}
+.footer .info .info-item .item {
+  font-size: 13px;
+  color: #656689;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+.footer .info .info-item .item:hover {
+  color: #ff5b2e;
 }
 
 /*# sourceMappingURL=main.css.map */

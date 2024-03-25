@@ -34,9 +34,12 @@
   .container .about {
     padding: 140px 8px;
   }
-  .service, .choice, .review, .blog {
+  .service, .choice, .review, .blog, .footer {
     padding-left: 8px;
     padding-right: 8px;
+  }
+  .footer .info {
+    margin-top: 24px;
   }
 }
 @media (max-width: 459px) {

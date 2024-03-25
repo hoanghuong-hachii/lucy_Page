@@ -38,7 +38,7 @@
                         color: #5e6085;
 
                         &:hover {
-                            color:#000958;
+                            color:#ff5b2e;
                         }
                     }
                 }
@@ -55,6 +55,11 @@
             padding: 0 20px;
             border: #5e6085 1px solid;
             border-radius: 20px;
+
+            &:hover {
+                color: #fff;
+                background-color: #5e6085;
+            }
         }
     }
 
@@ -230,6 +235,10 @@
                     color: #fff;
                     border-radius: 20px;
 
+                    &:hover {
+                        opacity: 0.6;
+                    }
+
                     svg {
                         margin-left: 8px;
                     }
@@ -241,6 +250,10 @@
                     color: #000958;
                     text-decoration: underline;
                     font-weight: 600;
+
+                    &:hover {
+                        color: #ff5b2e;
+                    }
 
                 }
             }
@@ -656,6 +669,11 @@
     border: 1px #ff5b2e solid;
     display: inline-block;
     font-weight: 500;
+
+    &:hover {
+        color: #fff;
+        background-color: #ff5b2e;
+    }
 }
 
 .staff {
@@ -1119,4 +1137,83 @@
 
 .btn-left {
     left: 0;
+}
+
+.footer {
+    background-color: #fff6ed;
+    padding: 60px 0;
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+
+        .logo {
+            max-width: 103px;
+            img {
+                max-width: 103px;
+                height: auto;
+            }
+        }
+
+        .send-form {
+            margin: 24px 0;
+            display: inline-block;
+            display: flex;
+            position: relative;
+        }
+        .input-form {
+            
+            height: 50px;
+            width: 90%;
+            outline: none;
+            border: 1px solid #ff5b2e;
+            font-size: 16px;
+            line-height: 1.5;
+            padding: 0 20px;
+            border-radius: 20px;
+
+            
+        }
+        .btn-send {
+            position: absolute;
+            top: 0;
+            right: 9%;
+            height: 50px;
+            width: 50px;
+            border: 1px solid #ff5b2e;
+            background-color: #ff5b2e;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h3 {
+            @include header-desc();
+        }
+
+        .social-icon {
+            margin-right: 8px;
+        }
+    }
+
+    .info {
+
+        .info-item {
+
+            .title {
+                @include header-desc();
+                color: #000958;
+
+            }
+
+            .item {
+                @include item-desc();
+
+                &:hover {
+                    color: #ff5b2e;
+                }
+            }
+        }
+    }
 }
