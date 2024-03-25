@@ -39,11 +39,11 @@
                     </a>
                     <div class="navbar">
                         <ul class="list-title">
-                            <li class="item"><a href="#">Home</a></li>
-                            <li class="item"><a href="#">About</a></li>
-                            <li class="item"><a href="#">Services & Rates</a></li>
-                            <li class="item"><a href="#">Reviews</a></li>
-                            <li class="item"><a href="#">Contacts us</a></li>
+                            <li class="item"><a href="#home">Home</a></li>
+                            <li class="item"><a href="#about">About</a></li>
+                            <li class="item"><a href="#service">Services & Rates</a></li>
+                            <li class="item"><a href="#review">Reviews</a></li>
+                            <li class="item"><a href="#contact">Contacts us</a></li>
 
                         </ul>
                         
@@ -52,6 +52,8 @@
                         Sign Up
                     </a>
                 </div>
+
+                
         
             </div>
 
@@ -60,7 +62,7 @@
 
         <div class="container">
             <div class="grid wide">
-                <div class="home">
+                <div id="home" class="home">
                     <div class="row">
                         <div class="col l-6 m-12 c-12">
                             <div class="hero-pet">
@@ -131,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="about">
+                <div id="about" class="about">
                     <div class="row">
                         <div class="col l-6 m-12 c-12">
                             <div class="about__content">
@@ -262,7 +264,7 @@
             </div>
         </div>
 
-        <div class="service">
+        <div id="service" class="service">
             <div class="grid wide">
                <div class="service__header">
                     <h3 class="service__header-desc">What we do for you?</h3>
@@ -586,7 +588,7 @@
             </div>
                 
         </div>
-        <div class="review">
+        <div id="review" class="review">
             <div class="grid wide con-btn">
                 <ul class="review__list">
                     <li class="review__item">
@@ -705,7 +707,7 @@
         </div>
         
 
-        <footer class="footer">
+        <footer id="contact" class="footer">
             <div class="grid wide">
 
                 <div class="row">
@@ -811,10 +813,43 @@
         
     </div>
 
+    <div class="overlay-main"></div>
+    <div class="home_navbar" ">
+        <div id="close" class="heading ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                <path fill="#ff5b2e" d="m6.4 18.308l-.708-.708l5.6-5.6l-5.6-5.6l.708-.708l5.6 5.6l5.6-5.6l.708.708l-5.6 5.6l5.6 5.6l-.708.708l-5.6-5.6z" />
+            </svg>
+        </div>
+        <ul class="list-title">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#service">Services & Rates</a></li>
+            <li class="item"><a href="#review">Reviews</a></li>
+            <li class="item"><a href="#contact">Contacts us</a></li>
+
+        </ul>
+        
+    </div>
     <script>
         
 
         $(document).ready(function() {
+
+            $('.menu-mt').click(function() {
+                $('.overlay-main').show()
+                $('.home_navbar').show();
+
+            })
+
+            $('.overlay-main').click(function() {
+                $('.home_navbar').hide();
+                $('.overlay-main').hide()
+            })
+
+            $('#close').click(function() {
+                $('.home_navbar').hide();
+                $('.overlay-main').hide()
+            })
 
             $('a[href="#"]').click(function(event) {
                 event.preventDefault(); 
