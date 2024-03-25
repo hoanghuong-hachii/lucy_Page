@@ -50,6 +50,7 @@
 
 *, ::after, ::before {
     box-sizing: border-box;
+    clear: both;
 }
 
 html {
@@ -66,6 +67,10 @@ body {
 img {
     width: 100%;
     height: auto;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .font-bold {

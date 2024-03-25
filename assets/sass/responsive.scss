@@ -37,6 +37,13 @@
         padding-top: 50px;
     }
 
+    .col.l-6.m-12.c-12.change1 {
+        order: -1;
+    }
+
+    .container .about .about__content .about__title {
+        padding-top: 82px;
+    }
     
 }
 
@@ -46,12 +53,19 @@
     .header {
         padding: 0 8px;
     }
-    .home {
+    .home{
         padding: 0 8px;
     }
     .container .about {
         padding: 140px 8px;
     }
+
+    .service, .choice, .review, .blog {
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+
 
     
     
