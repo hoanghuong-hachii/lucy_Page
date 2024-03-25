@@ -1,3 +1,3 @@
 # lucy_Page
 pet store website
-https://hoanghuong-hachii.github.io/lucy_Page/index.html
+https://hoanghuong-hachii.github.io/lucy_Page/
